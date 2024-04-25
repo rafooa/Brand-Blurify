@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 48
+names: ['24fitness', 'adidas1', 'americanexpress', 'audi-symbol', 'audi-text', 'bankofamerica-symbol', 'bankofamerica-text', 'bosch-text', 'car', 'castrol', 'chase', 'citi', 'coca-cola', 'coke', 'ewe', 'facebook', 'ford-symbol', 'goodyear', 'h-m', 'jever', 'man', 'michelin', 'pepsi-symbol', 'pepsi-text', 'pnc', 'porsche', 'porsche-text', 'redbull', 'redbull-symbol', 'scania', 'seat-symbol', 'seat-text', 'skoda', 'subway', 'tcr', 'tjmaxx', 'tmobile', 'toyota', 'ups', 'visa', 'vw', 'vw-text', 'walmart', 'walmart-symbol', 'wellsfargo', 'wellsfargo-symbol', 'wurth', 'zara']
+
+roboflow:
+  workspace: ai-project-cizqr
+  project: blurify
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ai-project-cizqr/blurify/dataset/1
